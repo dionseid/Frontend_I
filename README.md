@@ -10,9 +10,9 @@ Sitio de receta ligero y en español: sigue el modelo semántico y básico de HT
 
 - Link: https://dionseid.github.io/Frontend_I/Proyecto1/
 
-## CV Batman
+### CV Batman
 
-- Link: https://dionseid.github.io/Frontend_I/Proyecto1_CV_Batman/
+- Link: https://dionseid.github.io/Frontend_I/Proyecto_CV_Batman/
 
 ### CV Personal
 
