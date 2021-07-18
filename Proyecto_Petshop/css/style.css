@@ -1,0 +1,85 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    margin: 0 auto;
+    width: 1024px;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+
+/* Header */
+header div:first-child {
+    background-color: #222222;
+    color: white;
+}
+header div:first-child p {
+    margin-top: 0;
+}
+header div:last-child {
+    background-color: #F0A83E;
+}
+h1 {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+
+}
+header span {
+    color: white;
+}
+header a {
+    color: white;
+}
+
+/* 1° Sección */
+.slide {
+    color: #3C2313;
+    text-align: center;
+}
+.slide > p {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.container {
+    background: wheat url('/assets/img/bowl-and-pet-daities-on-green-background\ 1.svg');
+    background-size: cover;
+    height: 409px;
+    padding-top: 22px;
+    width: 1024px;
+}
+.container p {
+    margin-top: 0;
+}
+.container a {
+    background-color: #F0A83E;
+    color: white;
+}
+
+/* 2° Sección */
+.productos-destacados h2 {
+    color: #3C2313;
+    font-weight: 700;
+}
+.productos-destacados p:first-child {
+    color: #666666;
+}
+.productos-destacados p:nth-child(2) {
+    color: #3C2313;
+}
+.productos-destacados p:last-child {
+    color: #F0A83E;
+}
+
+/* 3° Sección */
+.contacto {
+    background-color: #3C2313;
+}
+
+/* Hay 20 px de margen horizontal entre li */
+
+/* nav > ul > li {
+    display: inline-block;
+} */
