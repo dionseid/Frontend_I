@@ -44,7 +44,7 @@ header a {
     margin-bottom: 0;
 }
 .container {
-    background: wheat url('/assets/img/bowl-and-pet-daities-on-green-background\ 1.svg');
+    background: wheat url("./assets/img/bowl-and-pet-daities-on-green-background-1.svg");
     background-size: cover;
     height: 409px;
     padding-top: 22px;
