@@ -12,9 +12,15 @@ Sitio de receta ligero y en español: sigue el modelo semántico y básico de HT
 
 ### CV Batman
 
+fondos, íconos cliqueables, modelado de elementos caja, uso de selectores
+
 - Link: https://dionseid.github.io/Frontend_I/Proyecto_CV_Batman/
 
 ### CV Personal
+
+adaptación del anterior CV, incorporación de clases entre los selectores
+Presté mayor atención a conseguir un estilo adecuado con los colores
+Hay comentarios en el código para expresar algunas dudas
 
 - Link: https://dionseid.github.io/Frontend_I/Proyecto_CV_Personal/
 
