@@ -1,8 +1,17 @@
 /* Estilos generales */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     margin: 0 auto;
+    /* height: 1807px; */
     width: 1024px;
+
 }
 a{
     text-decoration: none;
@@ -11,60 +20,112 @@ ul {
     list-style: none;
 }
 
-/* Header */
+/* header */
+/* Top */
 header div:first-child {
     background-color: #222222;
-    color: white;
+    color: #F3F3F3;
+    display: flex;
+    font-size: 10px;
+    font-weight: 400;
+    justify-content: space-between;
+    padding: 4px 90px 4px 50px;
 }
 header div:first-child p {
     margin-top: 0;
 }
+header div:first-child a {
+    color: #F3F3F3;
+    padding: 0 5px 0 5px;
+}
+header div:first-child li {
+    display: inline-block;
+}
+/* Rectangle 3 */
 header div:last-child {
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
 }
 h1 {
     color: #3C2313;
-    font-family: 'Roboto', sans-serif;
-
+    font-size: 20px;
+    font-weight: 700;
 }
 header span {
     color: white;
 }
-header a {
+header div:last-child a {
     color: white;
+    font-size: 13px;
+    padding: 0 10px 0 10px;
+}
+header div:last-child li {
+    display: inline-block;
 }
 
-/* 1° Sección */
+/* Main */
+/* Slide */
 .slide {
-    color: #3C2313;
-    text-align: center;
-}
-.slide > p {
-    font-size: 30px;
-    margin-bottom: 0;
-}
-.container {
     background: wheat url(https://dionseid.github.io/Frontend_I/Proyecto_Petshop/assets/img/bowl-and-pet-daities-on-green-background-1.svg);
     background-size: cover;
+    color: #3C2313;
     height: 409px;
-    padding-top: 22px;
     width: 1024px;
+    padding-right: 12px;
+    position: relative;
 }
-.container p {
-    margin-top: 0;
+.slide div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 156px;
+    right: 12px;
 }
-.container a {
+.slide p:first-child {
+    background-color: white;
+    border-radius: 6px;
+    font-size: 30px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+.slide a {
     background-color: #F0A83E;
+    border-radius: 6px;
     color: white;
+    margin-top: 12px;
+    padding: 15px 23px;
 }
-
-/* 2° Sección */
+/* Productos Destacados */
+.productos-destacados {
+    padding: 20px 95px 78px 95px;
+    text-align: center;
+}
 .productos-destacados h2 {
     color: #3C2313;
+    font-size: 40px;
     font-weight: 700;
+    padding-top: 5px;
 }
-.productos-destacados p:first-child {
+.productos-destacados > p:first-of-type {
     color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 20px;
+    word-spacing: 13px;
+}
+.productos-destacados > div {
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.productos-destacados div p {
+    background-color: #FAF8F4;
+    padding-bottom: 7.45px;
 }
 .productos-destacados p:nth-child(2) {
     color: #3C2313;
@@ -73,13 +134,56 @@ header a {
     color: #F0A83E;
 }
 
-/* 3° Sección */
+/* footer */
+/* contacto */
 .contacto {
     background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    padding: 23px 54px 23px 161px;
 }
-
-/* Hay 20 px de margen horizontal entre li */
-
-/* nav > ul > li {
-    display: inline-block;
-} */
+.contacto h3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+.contacto p {
+    color: #8A8787;
+    font-size: 10px;
+}
+.contacto p {
+    padding-bottom: 50px;
+}
+.contacto i {
+    background-color: #8A8787;
+    border: 6px solid #786960;
+    border-radius: 100%;
+    font-size: 40px;
+    padding: 14px;
+    position: absolute;
+    right: 200px;
+}
+.contacto h3:first-child i, .contacto h3:nth-of-type(2) i {
+    line-height: 28px;
+    font-size: 38px;
+}
+.contacto h3:nth-of-type(3) i {
+    padding: 8px;
+}
+.contacto a {
+    padding: 16px;
+}
+.contacto span {
+    color: #F0A83E;
+}
+/* Derechos */
+footer > p {
+    background-color: #222222;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 4px 0 4px;
+    text-align: center;
+}

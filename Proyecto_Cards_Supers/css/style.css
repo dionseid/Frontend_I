@@ -1,0 +1,121 @@
+/* Estilos Generales */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 1024px;
+  width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*BarDiscount*/
+.descuento {
+  background-color: #1cd1b0;
+  font-size: 15px;
+  line-height: 17.58px;
+  padding: 10px;
+}
+
+/* Header */
+header {
+  background-color: #00669f;
+  box-shadow: 0 6px 4px -2px gray;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 28px;
+}
+
+main {
+  padding: 15% 3%;
+  margin: 0 auto;
+  height: 52%;
+  /* text-align: center; */
+  /* width: 94%; */
+}
+
+section {
+  position: relative;
+}
+
+.card {
+  background-color: #f3f3f3;
+  position: absolute;
+  height: 529px;
+  width: 31.25%;
+  border-radius: 16px 16px 0 0;
+}
+
+.cardSuperior {
+  background: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png) no-repeat;
+  background-size: contain;
+  height: 200px;
+  position: relative;
+}
+
+.fa-heart {
+  color: red;
+  margin: 20px;
+  font-size: 20px;
+}
+
+img {
+  border-radius: 50%;
+  position: absolute;
+  top: 129px;
+  left: 30%;
+}
+
+.cardInferior {
+  padding-top: 73px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cardInferior p {
+  padding: 10px 16px 37px;
+  line-height: 18.75px;
+}
+
+a {
+  background-color: #00669f;
+  color: #f3f3f3;
+  padding: 16px 38px;
+  text-decoration: none;
+  position: relative;
+  left: 30%;
+}
+
+.card2 {
+  /* left: 34.5%; */
+  left: 33%;
+}
+
+.card3 {
+  /* right: 0%; */
+  left: 66%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  height: 5%;
+  background-color: #00669f;
+  width: 100%;
+  color: white;
+}
+
+footer > p {
+  position: absolute;
+  margin-top: 1.55%;
+  margin-left: 1.5%;
+  color: white;
+}

@@ -26,6 +26,10 @@ Hay comentarios en el código para expresar algunas dudas
 
 ### Petshop
 
-Sitio construido en español usando HTML; optimizado en el uso de las etiquetas semánticas. Está en construcción, pues espera la definición de estilos a través de CSS. Además, un versión mobile próximamente va a estar disponible
+- sitio construido en español usando HTML, optimizado en el uso de las etiquetas semánticas
+- basado en CSS Flexbox
+- incorporación de íconos personalizados y posicionados
+  dimensionado para un pantalla de 1024px por 1807px
+- Espera su versión mobile
 
 - Link: https://dionseid.github.io/Frontend_I/Proyecto_Petshop/
