@@ -51,6 +51,9 @@ section {
   width: 30%;
   margin: 0 0.5em 6em;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .cardSuperior {
   border-radius: 16px 16px 0 0;
@@ -74,6 +77,9 @@ section {
   height: 7.5em;
   position: absolute;
   top: 8em;
+}
+.cardSuperior img:nth-child(2) {
+  display: none;
 }
 .cardInferior {
   display: flex;
@@ -154,6 +160,7 @@ footer img {
   h1 {
     color: white;
     font-weight: 400;
+    text-align: center;
   }
   h1 span {
     display: inline-block;
@@ -167,12 +174,22 @@ footer img {
   .cardSuperior img {
     top: 6.1em;
   }
+  .cardSuperior img:nth-child(2) {
+    display: inline-block;
+  }
   h2 {
     font-size: 1.4em;
     padding-top: 3em;
   }
+  .card2 {
+    order: 4;
+  }
+  .card3 {
+    order: 3;
+  }
   .card4 {
     display: block;
+    order: 2;
   }
   main > div > a {
     display: inline-block;
@@ -192,16 +209,16 @@ footer img {
   html {
     font-size: 20px;
   }
-  .inside {
-    width: unset;
-  }
   .card {
     width: 100%;
   }
   .cardSuperior img {
     top: 5.6em;
   }
+  .card2 {
+    display: none;
+  }
   footer {
-    font-size: 0.5em;
+    font-size: 0.37em;
   }
 }
