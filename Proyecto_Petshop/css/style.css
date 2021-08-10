@@ -1,5 +1,6 @@
 /* Estilos generales */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import "productos_destacados.css";
 @import "form.css";
 * {
   box-sizing: border-box;
@@ -109,46 +110,6 @@ header > div:last-child i:last-child {
   margin-top: 12px;
   padding: 15px 23px;
 }
-/* Productos Destacados */
-.productos-destacados {
-  padding: 2em 0 0;
-  margin: 0 auto;
-  text-align: center;
-}
-.productos-destacados h2 {
-  color: #3c2313;
-  font-size: 40px;
-  font-weight: 700;
-  padding-top: 5px;
-}
-.productos-destacados > p {
-  color: #666666;
-  font-size: 15px;
-  font-weight: 400;
-  padding-top: 20px;
-  word-spacing: 13px;
-}
-.productos-destacados > div {
-  display: flex;
-  font-size: 15px;
-  font-weight: 500;
-  justify-content: space-between;
-  padding-top: 50px;
-  margin: 0 auto;
-  max-width: 55em;
-}
-.productos-destacados div div {
-  background-color: rgb(250, 248, 244);
-}
-.productos-destacados > div div p {
-  padding-bottom: 7.45px;
-}
-.productos-destacados p:nth-child(2) {
-  color: #3c2313;
-}
-.productos-destacados p:last-child {
-  color: #f0a83e;
-}
 
 /* footer */
 footer {
@@ -209,7 +170,7 @@ footer {
 footer > p {
   background-color: #222222;
   color: white;
-  font-size: 10px;
+  font-size: 0.7em;
   font-weight: 700;
   padding: 4px 0 4px;
   text-align: center;
@@ -256,6 +217,24 @@ footer > p {
   }
   .productos-destacados > div {
     flex-direction: column;
+    padding: 2em;
+    gap: 2em;
+  }
+  .formulario {
+    margin: 1em auto 2em;
+    max-width: 17em;
+  }
+  .formulario h2 {
+    font-size: 2em;
+  }
+  label {
+    top: 1.3em;
+  }
+  .formulario div:last-child button,
+  .formulario div:last-child input {
+    border-radius: 2em;
+    padding: 1em 0;
+    width: 50%;
   }
   footer > .contacto {
     flex-direction: column;
@@ -269,9 +248,13 @@ footer > p {
   }
   .contacto > h3 {
     order: -1;
+    font-size: 0.8em;
   }
   .contacto > h3 > a {
     display: flex;
     flex-direction: row;
+  }
+  footer > p {
+    font-size: 0.6em;
   }
 }

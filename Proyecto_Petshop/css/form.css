@@ -33,8 +33,8 @@ label {
   padding-left: 10px;
   width: 100%;
 }
-.formulario > form > div:nth-child(-n + 3) > input:focus ~ label,
-.formulario > form > div:nth-child(-n + 3) > input:valid ~ label {
+.formulario > form > div:nth-child(-n + 3) > input:focus ~ label/*,
+.formulario > form > div:nth-child(-n + 3) > input:valid ~ label*/ {
   color: #3c2313;
   top: -0.6em;
   left: 1em;
@@ -43,6 +43,11 @@ label {
   color: red;
   top: -0.6em;
   left: 1em;
+} */
+/* .formulario > form > div:nth-child(-n + 3) > input:focus:empty ~ label {
+  color: white;
+  left: 1.5em;
+  top: 1.8em;
 } */
 form > div:last-child {
   display: flex;
