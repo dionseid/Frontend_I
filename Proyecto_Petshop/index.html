@@ -16,42 +16,47 @@
   <body>
     <header>
       <div>
-        <p>Grandes ofertas en comederos</p>
-        <nav>
-          <ul>
-            <a href="#"
-              ><li>Español <i class="fas fa-chevron-down"></i></li
-            ></a>
-            <a href="#"
-              ><li>ARG$ <i class="fas fa-chevron-down"></i></li
-            ></a>
-          </ul>
-        </nav>
+        <div class="inside">
+          <p>Grandes ofertas en comederos</p>
+          <nav>
+            <ul>
+              <li><a href="#"
+                >Español <i class="fas fa-chevron-down"></i></a></li
+                >
+              <li><a href="#"
+                >ARG$ <i class="fas fa-chevron-down"></i></a></li
+              >
+            </ul>
+          </nav>
+        </div>
       </div>
       <div>
-        <a href="#">
-          <h1>
-            <img src="./assets/img/Cat.svg" alt="Logo de gato" />Front<span
-              >Cat&Dog</span
-            ><img src="./assets/img/Dog.svg" alt="Logo de perro" />
-          </h1>
-        </a>
-        <nav>
-          <ul>
-            <li>
-              <a href="#"><i class="fas fa-paw"></i> Categorias</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-paw"></i> Pets</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-paw"></i> Nosotros</a>
-            </li>
-            <li>
-              <a href="#"><i class="fas fa-paw"></i> Contactanos</a>
-            </li>
-          </ul>
-        </nav>
+        <div class="inside">
+          <a href="#">
+            <h1>
+              <img src="./assets/img/Cat.svg" alt="Logo de gato" />Front<span
+                >Cat&Dog</span
+              ><img src="./assets/img/Dog.svg" alt="Logo de perro" />
+            </h1>
+          </a>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Categorias</a>
+              </li>
+              <li>
+                <a href="#">Pets</a>
+              </li>
+              <li>
+                <a href="#">Nosotros</a>
+              </li>
+              <li>
+                <a href="#">Contactanos</a>
+              </li>
+            </ul>
+          </nav>
+          <i class="fas fa-bars"></i>
+        </div>
       </div>
     </header>
     <main>
@@ -61,14 +66,17 @@
           <p>¡Comederos en descuento!</p>
           <a href="#">COMEDEROS</a>
         </div>
-      </section>
-      <section class="productos-destacados">
+      </section class="inside">
+      <section class="productos-destacados inside">
         <img src="assets/img/pawprint 1.svg" alt="icono Huella de perro" />
         <h2>Productos Destacados</h2>
         <p>Comederos - Accesorios - Comida</p>
         <div>
           <div>
-            <img src="assets/img/churrasquito.svg" alt="Juguete Churrasquito" />
+            <img
+              src="assets/img/churrasquito.svg"
+              alt="Juguete Churrasquito"
+              />
             <p>Juguete Churrasquito</p>
             <p>$150</p>
           </div>
@@ -84,24 +92,46 @@
           </div>
         </div>
       </section>
+      <section class="formulario">
+        <h2>Contáctanos</h2>
+        <form action="#" method="GET">
+          <div>
+            <input id="nombre" name="nombre" type="text" required>
+            <label for="nombre">Nombre y Apellido</label>
+          </div>
+          <div>
+            <input id="email" name="email" type="email" required>
+            <label for="email">Ingresá tu correo electrónico</label>
+          </div>
+          <div>
+            <input id="tel" name="tel" type="tel">
+            <label for="tel">Teléfono</label>
+          </div>
+          <div>
+            <button type="reset" value="Resetear">Resetear</button>
+            <input type="submit" value="Enviar">
+          </div>
+        </form>
+      </section>
     </main>
     <footer>
-      <div class="contacto">
+      <div class="contacto inside">
         <div>
           <h3><i class="fas fa-map-marker-alt"></i>Localidad</h3>
           <p>Calle - provincia</p>
           <h3><i class="fas fa-phone-volume"></i>Número de teléfono</h3>
           <p>Número de teléfono</p>
+          <p>15-111-111-111</p>
           <h3><i class="fas fa-at"></i>Correo Electrónico</h3>
           <p>Dirección de correo</p>
         </div>
-        <a href="#">
-          <h3>
+        <h3>
+          <a href="#">
             <img src="assets/img/Cat.svg" alt="Logo de gato" />Front<span
               >Cat&Dog</span
             ><img src="assets/img/Dog.svg" alt="Logo de perro" />
-          </h3>
-        </a>
+          </a>
+        </h3>
       </div>
       <p align="center">Todos los derechos reservados Front End</p>
     </footer>
