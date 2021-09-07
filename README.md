@@ -43,3 +43,5 @@ main objective: To practice Bootstrap; that’s the reason why you’ll find so 
 - Flexbox;
 - Bootstrap: navbar, buttons, modals;
 - hover effects
+
+- Link: https://dionseid.github.io/Frontend_I/proyecto_Portfolio/
