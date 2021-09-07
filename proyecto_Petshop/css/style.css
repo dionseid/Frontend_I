@@ -28,8 +28,8 @@
   font-size: 15px;
   font-weight: 500;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 50px;
   margin: 0 auto;
   max-width: 55em;
@@ -115,8 +115,8 @@ form > div:last-child {
   display: flex;
   gap: 0.5em;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-top: 1em;
 }
 
@@ -148,11 +148,11 @@ footer .contacto {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   font-weight: 700;
   padding: 1.5em 0;
   margin: 0 auto;
@@ -226,7 +226,7 @@ footer > p {
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -253,8 +253,8 @@ header div div {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
@@ -319,18 +319,19 @@ header > div:last-child i:last-child {
 /* Main */
 /* Slide */
 .slide {
-  background: wheat url(https://dionseid.github.io/Frontend_I/Proyecto_Petshop/assets/img/bowl-and-pet-daities-on-green-background-1.svg) no-repeat;
+  background: wheat
+    url("./assets/img/bowl-and-pet-daities-on-green-background-1.svg") no-repeat;
   background-size: cover;
   color: #3c2313;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   height: 33.7em;
   /* height: 41.31%; */
   /* height: 409px; */
@@ -343,11 +344,11 @@ header > div:last-child i:last-child {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   width: 50%;
 }
 
@@ -381,8 +382,8 @@ header > div:last-child i:last-child {
   }
   header > div:last-child > div {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     max-width: 90%;
   }
   header > div:last-child nav {
@@ -403,8 +404,8 @@ header > div:last-child i:last-child {
   .slide > div {
     width: 90%;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     /* text-align: right; */
   }
   .slide p:first-child {
@@ -413,8 +414,8 @@ header > div:last-child i:last-child {
   .productos-destacados > div {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 2em;
     gap: 2em;
   }
@@ -437,8 +438,8 @@ header > div:last-child i:last-child {
   footer > .contacto {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 0;
   }
   .contacto p:nth-child(4) {
@@ -449,8 +450,8 @@ header > div:last-child i:last-child {
   }
   .contacto > h3 {
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
     font-size: 0.8em;
   }
   .contacto > h3 > a {
@@ -459,8 +460,8 @@ header > div:last-child i:last-child {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   footer > p {
     font-size: 0.6em;
