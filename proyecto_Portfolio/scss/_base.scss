@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    &:active {
+        color: white;
+    }
+    display: inline-block;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+hr {
+    width: 100%;
+}
+textarea {
+    resize: none;
+}

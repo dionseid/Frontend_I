@@ -1,0 +1,31 @@
+/* Main */
+main {
+  div {
+    margin: 117px auto 200px;
+    width: 70%;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  ul, dl {
+    font-size: 15px;
+  }
+  ul {
+    margin-left: $margin-list;
+    padding-left: 0;
+  }
+  span {
+    font-weight: bold;
+  }
+  li {
+    span {
+      font-style: italic;
+    }
+  }
+  dl {
+    margin-left: $margin-list;
+    dd {
+      margin-left: 74px;
+    }
+  }
+}

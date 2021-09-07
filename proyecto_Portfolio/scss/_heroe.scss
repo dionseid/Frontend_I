@@ -1,0 +1,8 @@
+@import "variables";
+@import "mixin";
+main {
+    section:first-child {
+        background-color: $background;
+        @include separador(white);
+    }
+}

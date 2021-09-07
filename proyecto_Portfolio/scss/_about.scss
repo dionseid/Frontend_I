@@ -1,0 +1,17 @@
+@import "variables";
+@import "mixin";
+main {
+    section:nth-child(3) {
+        background-color: $background;
+        padding: 3em 1.2em;
+        div {
+            @include separador(white);
+        }
+        .download-CV {
+            &:enabled {
+                background-color: $background;
+                color: white;
+            }
+        }
+    }
+}

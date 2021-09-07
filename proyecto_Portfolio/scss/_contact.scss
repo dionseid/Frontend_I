@@ -1,0 +1,18 @@
+@import "variables";
+@import "mixin";
+main {
+    section:nth-child(4) {
+        @include separador($primary-color);
+        color: $primary-color;
+        padding: 4em .8em;
+        input, textarea {
+            font-size: 0.8em;
+            outline: none;
+            box-shadow: 0 0 0 30px white inset; /* As I found in https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete */
+        }
+        .send-button {
+            background-color: $background;
+            padding: .8em 1.4em;
+        }
+    }
+}

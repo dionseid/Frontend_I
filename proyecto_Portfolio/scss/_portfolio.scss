@@ -1,0 +1,55 @@
+@import "variables";
+@import "mixin";
+main > section:nth-child(2) {
+    color: $primary-color;
+    padding-bottom: 5em;
+    &> div > div {
+        // Divider  
+        &:nth-child(2) {
+            @include separador($primary-color);
+            flex-direction: column;
+        }
+        // Flex Container
+        &:nth-child(3) {
+            // Flex Items
+            &> div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                // Flex Hover
+                div:last-child {
+                    background-color: rgba(192, 177, 192, .5);
+                    border-radius: 10px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    font-family: 'Nunito', sans-serif;
+                    font-size: 6em;
+                    position: absolute;
+                    width: 80%;
+                    height: 100%;
+                    visibility: hidden;
+                    p {
+                        align-self: center;
+                    }
+                }
+                &:hover {
+                    div:last-child {
+                        visibility: visible;
+                    }
+                }
+            }
+        }
+        // Modals
+        .modal-button {
+            background-color: $background;
+            font-size: 0.8em;
+            margin: .25rem auto 2.4rem;
+            padding: .5em .75em;
+        }
+        &[aria-labelledby=exampleModalLabel] {
+            @include separador($primary-color, "true");
+        }
+    }     
+}

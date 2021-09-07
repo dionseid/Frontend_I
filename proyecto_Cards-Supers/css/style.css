@@ -1,0 +1,243 @@
+/* Estilos Generales */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+}
+.inside {
+  margin: 0 auto;
+  width: 70%;
+}
+
+/*BarDiscount*/
+.descuento {
+  background-color: #1cd1b0;
+  font-size: 15px;
+  line-height: 17.58px;
+  padding: 10px 10px 10px 28px;
+}
+.descuento p:first-child {
+  display: none;
+}
+
+/* Header */
+header {
+  background-color: #00669f;
+  box-shadow: 0 6px 4px -2px gray;
+  padding: 28px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+header .inside {
+  display: flex;
+}
+h1 span {
+  display: none;
+}
+
+main {
+  padding: 8% 3%;
+  position: relative;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #f3f3f3;
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 4px 4px -2px gray;
+  width: 30%;
+  margin: 0 0.5em 6em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardSuperior {
+  border-radius: 16px 16px 0 0;
+  background: url(../img/849bfede3a5193c34ab8a00379e64fa2\ 1.png) no-repeat
+    center;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+.fa-heart {
+  color: red;
+  margin: 1em;
+  font-size: 1.3em;
+}
+.cardSuperior div {
+  display: flex;
+  justify-content: center;
+}
+.cardSuperior img {
+  border-radius: 50%;
+  height: 7.5em;
+  position: absolute;
+  top: 8em;
+}
+.cardSuperior img:nth-child(2) {
+  display: none;
+}
+.cardInferior {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em;
+}
+h2 {
+  padding-top: 2.5em;
+  font-size: 1.6em;
+  text-align: center;
+  font-weight: 400;
+}
+.cardInferior p {
+  padding: 1em 1em 0em;
+}
+.card div:last-child {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}
+a {
+  background-color: #00669f;
+  border-radius: 6px;
+  color: #f3f3f3;
+  padding: 1em 2.4em;
+  text-decoration: none;
+}
+.card2 .cardSuperior {
+  background-image: url("../img/849bfede3a5193c34ab8a00379e64fa2 1.svg");
+}
+.card2 a {
+  position: relative;
+  bottom: 0px;
+}
+.card3 .cardSuperior {
+  background-image: url("../img/fondo_Superman.svg");
+}
+.card4 {
+  display: none;
+}
+.card4 .cardSuperior {
+  background-image: url("../img/fondo_Mujer_Maravilla.svg");
+}
+main > div > a {
+  background-color: #00669f;
+  border-radius: 100%;
+  color: white;
+  /* display: none; */
+  font-size: 3em;
+  padding: 0.165em 0.47em;
+  position: fixed;
+  bottom: 50%;
+  right: 2%;
+  text-decoration: none;
+}
+main > div > a:hover {
+  background-color: #001d2d;
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #00669f;
+  color: white;
+  padding: 1.4em;
+  text-align: center;
+}
+footer img {
+  display: none;
+  width: 6em;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+  .descuento {
+    background-color: #d1891c;
+  }
+  .descuento p:nth-child(2) {
+    display: none;
+  }
+  .descuento p:nth-child(1) {
+    display: block;
+  }
+  .inside {
+    width: unset;
+  }
+  header img {
+    display: none;
+  }
+  h1 {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+  }
+  h1 span {
+    display: inline-block;
+  }
+  .section {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 45%;
+  }
+  .cardSuperior img {
+    top: 6.1em;
+  }
+  .cardSuperior img:nth-child(2) {
+    display: inline-block;
+  }
+  h2 {
+    font-size: 1.4em;
+    padding-top: 3em;
+  }
+  .card2 {
+    order: 4;
+  }
+  .card3 {
+    order: 3;
+  }
+  .card4 {
+    display: block;
+    order: 2;
+  }
+  main > div > a {
+    display: inline-block;
+  }
+  footer {
+    position: relative;
+    font-size: 0.6em;
+  }
+  footer img {
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    top: 25%;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 20px;
+  }
+  .card {
+    width: 100%;
+  }
+  .cardSuperior img {
+    top: 5.6em;
+  }
+  .card2 {
+    display: none;
+  }
+  footer {
+    font-size: 0.37em;
+  }
+}

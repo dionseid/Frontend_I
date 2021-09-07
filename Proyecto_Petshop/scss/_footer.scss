@@ -1,0 +1,73 @@
+/* footer */
+footer {
+  background-color: #3c2313;
+  /* contacto */
+  .contacto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    padding: 1.5em 0;
+    margin: 0 auto;
+    div {
+      padding-left: 5em;
+      i {
+        background-color: #8a8787;
+        border: 6px solid #786960;
+        border-radius: 100%;
+        font-size: 40px;
+        padding: 14px;
+        position: absolute;
+        right: 200px;
+      }
+      h3 {
+        color: white;
+        font-size: 20px;
+        position: relative;
+        &:first-child {
+          i {
+            line-height: 28px;
+            font-size: 38px;
+          }
+        }
+        &:nth-of-type(2) {
+          i {
+            line-height: 28px;
+            font-size: 38px;
+          }
+        }
+        &:nth-of-type(3) {
+          i {
+            padding: 8px;
+          }
+        }
+      }
+    }
+    p {
+      color: #8a8787;
+      font-size: 0.7em;
+      padding-bottom: 50px;
+      &:nth-child(5) {
+        display: none;
+      }
+    }
+    a {
+      padding: 16px;
+      &:visited {
+        color: white;
+      }
+    }
+    span {
+      color: #f0a83e;
+    }
+  }
+}
+/* Derechos */
+footer > p {
+  background-color: #222222;
+  color: white;
+  font-size: 0.7em;
+  font-weight: 700;
+  padding: 4px 0 4px;
+  text-align: center;
+}

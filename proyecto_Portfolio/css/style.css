@@ -1,0 +1,386 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+hr {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+header {
+  background-color: #6b4e71;
+  padding: 0.4em 0.6em;
+}
+
+header h1 {
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0 0 0.2em;
+}
+
+header nav .nav-button {
+  border-radius: .8em;
+  font-size: 0.82rem;
+  padding: 0.9em 1em;
+}
+
+header nav .nav-button:enabled {
+  background-color: #c2b2b4;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+header nav .nav-button:focus {
+  -webkit-box-shadow: 0 0 0 0.25rem #6c757d;
+          box-shadow: 0 0 0 0.25rem #6c757d;
+}
+
+header nav p {
+  margin-bottom: 0;
+  padding: .1em .001em;
+}
+
+header nav div[id=navbarSupportedContent] {
+  float: right;
+}
+
+main section:first-child {
+  background-color: #c2b2b4;
+  /* hr con clases border, border-2, y border-white; mas añado background-color #c2b2b4 → */
+}
+
+main section:first-child hr {
+  opacity: 1;
+}
+
+main section:first-child i {
+  bottom: 1.35em;
+}
+
+main section:first-child i {
+  background-color: #c2b2b4;
+}
+
+main > section:nth-child(2) {
+  color: #2c3e51;
+  padding-bottom: 5em;
+}
+
+main > section:nth-child(2) > div > div:nth-child(2) {
+  /* hr con clases border, border-2, y border-white; mas añado background-color #c2b2b4 → */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main > section:nth-child(2) > div > div:nth-child(2) hr {
+  opacity: 1;
+}
+
+main > section:nth-child(2) > div > div:nth-child(2) i {
+  bottom: 1.35em;
+}
+
+main > section:nth-child(2) > div > div:nth-child(2) hr {
+  border: 1.5px solid #2c3e51;
+}
+
+main > section:nth-child(2) > div > div:nth-child(3) > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+main > section:nth-child(2) > div > div:nth-child(3) > div div:last-child {
+  background-color: rgba(192, 177, 192, 0.5);
+  border-radius: 10px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 6em;
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  visibility: hidden;
+}
+
+main > section:nth-child(2) > div > div:nth-child(3) > div div:last-child p {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+main > section:nth-child(2) > div > div:nth-child(3) > div:hover div:last-child {
+  visibility: visible;
+}
+
+main > section:nth-child(2) > div > div .modal-button {
+  background-color: #c2b2b4;
+  font-size: 0.8em;
+  margin: .25rem auto 2.4rem;
+  padding: .5em .75em;
+}
+
+main > section:nth-child(2) > div > div[aria-labelledby=exampleModalLabel] {
+  /* hr con clases border, border-2, y border-white; mas añado background-color #c2b2b4 → */
+}
+
+main > section:nth-child(2) > div > div[aria-labelledby=exampleModalLabel] hr {
+  opacity: 1;
+}
+
+main > section:nth-child(2) > div > div[aria-labelledby=exampleModalLabel] i {
+  bottom: 1.35em;
+}
+
+main > section:nth-child(2) > div > div[aria-labelledby=exampleModalLabel] hr {
+  border: 1.5px solid #2c3e51;
+  border: 1px solid;
+}
+
+main section:nth-child(3) {
+  background-color: #c2b2b4;
+  padding: 3em 1.2em;
+}
+
+main section:nth-child(3) div {
+  /* hr con clases border, border-2, y border-white; mas añado background-color #c2b2b4 → */
+}
+
+main section:nth-child(3) div hr {
+  opacity: 1;
+}
+
+main section:nth-child(3) div i {
+  bottom: 1.35em;
+}
+
+main section:nth-child(3) div i {
+  background-color: #c2b2b4;
+}
+
+main section:nth-child(3) .download-CV:enabled {
+  background-color: #c2b2b4;
+  color: white;
+}
+
+main section:nth-child(4) {
+  /* hr con clases border, border-2, y border-white; mas añado background-color #c2b2b4 → */
+  color: #2c3e51;
+  padding: 4em .8em;
+}
+
+main section:nth-child(4) hr {
+  opacity: 1;
+}
+
+main section:nth-child(4) i {
+  bottom: 1.35em;
+}
+
+main section:nth-child(4) hr {
+  border: 1.5px solid #2c3e51;
+}
+
+main section:nth-child(4) input, main section:nth-child(4) textarea {
+  font-size: 0.8em;
+  outline: none;
+  -webkit-box-shadow: 0 0 0 30px white inset;
+          box-shadow: 0 0 0 30px white inset;
+  /* As I found in https://stackoverflow.com/questions/2781549/removing-input-background-colour-for-chrome-autocomplete */
+}
+
+main section:nth-child(4) .send-button {
+  background-color: #c2b2b4;
+  padding: .8em 1.4em;
+}
+
+footer {
+  background-color: #53687e;
+}
+
+footer > div:first-child {
+  padding: 4em 2em .8em;
+}
+
+footer > div:first-child div h3 {
+  font-size: 1.1em;
+  padding-bottom: .6em;
+}
+
+footer > div:first-child div a {
+  padding: .55em .9em;
+}
+
+footer > div:first-child div a:nth-child(4) {
+  padding: .565em 1em;
+}
+
+footer > div:first-child div a:visited {
+  color: white;
+}
+
+footer > div:first-child div:nth-child(3) h3 {
+  padding-top: 1.1em;
+}
+
+footer > div:first-child div:nth-child(3) p {
+  margin-bottom: 0;
+}
+
+footer > div:last-child {
+  background-color: #1a252f;
+  padding: 0.75em 0;
+}
+
+footer > div:last-child p {
+  font-size: .8em;
+  padding: .5em 0;
+}
+
+@media screen and (min-width: 768px) {
+  main > section:first-child img {
+    height: 15em;
+  }
+  main > section:first-child p {
+    font-size: 1.1em;
+  }
+  main > section hr {
+    width: 45%;
+  }
+  main > section:nth-child(2) {
+    margin: 1em 0 -2em;
+  }
+  main > section:nth-child(2) > div > div:nth-child(3) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 4em;
+  }
+  main > section:nth-child(2) > div > div:nth-child(3) > div {
+    width: 50%;
+  }
+  main > section:nth-child(3) {
+    font-size: 1.2em;
+    padding: 3em 2em;
+  }
+  main > section:nth-child(3) button {
+    font-size: 0.8em;
+    border-radius: 7.5px;
+  }
+  main > section:nth-child(4) {
+    padding-right: 3em;
+    padding-left: 2em;
+  }
+  main > section:nth-child(4) form label {
+    font-size: 1.1em;
+  }
+  main > section:nth-child(4) form input, main > section:nth-child(4) form textarea {
+    font-size: 1em;
+  }
+  footer div.desktop-container:first-child {
+    padding: 0.8em 1em 0;
+  }
+  footer div.desktop-container:first-child div h3 {
+    font-size: 1.5em;
+    margin: 2em 0 .5em;
+  }
+  footer div.desktop-container:first-child div p {
+    font-size: 1.2em;
+  }
+  footer div.desktop-container:first-child div:nth-child(3) h3 {
+    margin-top: 0.3em;
+  }
+  footer div.desktop-container > p {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .desktop-container .desktop-child {
+    margin: 0 auto;
+    width: 75%;
+  }
+  header nav div .nav-button {
+    display: none;
+  }
+  header nav div a {
+    font-weight: bold;
+  }
+  main > section:nth-child(2) > div > div:nth-child(3) > div {
+    width: 33%;
+  }
+  main > section:nth-child(3) p {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+  main > section:nth-child(4) form {
+    padding-right: 6em;
+    padding-left: 6em;
+  }
+  footer {
+    font-size: .8em;
+  }
+  footer .desktop-container {
+    padding: 0 0;
+  }
+  footer .desktop-container div.desktop-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .desktop-container div.desktop-child div {
+    padding-top: 1em;
+    width: 33%;
+  }
+  footer .desktop-container div.desktop-child div h3 {
+    font-size: 1.3em;
+  }
+  footer .desktop-container > p {
+    padding: 0.1em 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

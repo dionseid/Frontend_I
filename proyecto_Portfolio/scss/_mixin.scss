@@ -1,0 +1,21 @@
+@import "variables";
+@mixin separador ($color, $thin-line: "false") {
+    hr {
+        opacity: 1;
+    }
+    i {
+        bottom: 1.35em;
+    }
+    /* hr con clases border, border-2, y border-white; mas añado background-color #c2b2b4 → */ @if $color == white {
+        i {
+            background-color: $background;
+        }} @else {
+            hr {
+                border: 1.5px solid $color;
+                @if $thin-line == "true" {
+                    border: 1px solid;
+                }
+            }
+        }
+    
+}
