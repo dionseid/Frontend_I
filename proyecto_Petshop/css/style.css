@@ -320,7 +320,7 @@ header > div:last-child i:last-child {
 /* Slide */
 .slide {
   background: wheat
-    url("./assets/img/bowl-and-pet-daities-on-green-background-1.svg") no-repeat;
+    url(../assets/img/bowl-and-pet-daities-on-green-background-1.svg) no-repeat;
   background-size: cover;
   color: #3c2313;
   display: -webkit-box;
@@ -395,7 +395,7 @@ header > div:last-child i:last-child {
     font-size: 1.3em;
   }
   .slide {
-    background: wheat url("/assets/img/background_mobile.svg") no-repeat;
+    background: wheat url(../assets/img/background_mobile.svg) no-repeat;
     background-size: cover;
     background-position: right bottom;
     /* background-size: con%; */
