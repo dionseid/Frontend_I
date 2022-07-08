@@ -6,7 +6,7 @@ El objetivo de estos proyectos es practicar la maquetación de sitios con estilo
 
 🚩 Aprender el modelo semántico y básico de HTML
 
-- Link: https://dionseid.github.io/sitios_html_css/proyecto_01/proyecto_01/
+- Link: https://dionseid.github.io/sitios_html_css/proyecto_01
 <hr/>
 
 ## CV Batman
