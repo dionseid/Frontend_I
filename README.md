@@ -6,14 +6,14 @@ El objetivo de estos proyectos es practicar la maquetación de sitios con estilo
 
 🚩 Aprender el modelo semántico y básico de HTML
 
-- Link: https://dionseid.github.io/Frontend_I/proyecto_01/
+- Link: https://dionseid.github.io/sitios_html_css/proyecto_01/proyecto_01/
 <hr/>
 
 ## CV Batman
 
 🚩 fondos, íconos cliqueables, modelado de elementos caja, uso de selectores
 
-- Link: https://dionseid.github.io/Frontend_I/proyecto_CV-Batman/
+- Link: https://dionseid.github.io/sitios_html_css/proyecto_CV-Batman/
 <hr/>
 
 ## CV Personal
@@ -22,7 +22,7 @@ El objetivo de estos proyectos es practicar la maquetación de sitios con estilo
 Presté mayor atención a conseguir un estilo adecuado con los colores<br>
 Hay comentarios en el código para expresar algunas dudas
 
-- Link: https://dionseid.github.io/Frontend_I/proyecto_CV-Personal/
+- Link: https://dionseid.github.io/sitios_html_css/proyecto_CV-Personal/
 <hr/>
 
 ## Petshop
@@ -33,7 +33,7 @@ Hay comentarios en el código para expresar algunas dudas
   dimensionado para un pantalla de 1024px por 1807px
 - Espera su versión mobile
 
-- Link: https://dionseid.github.io/Frontend_I/proyecto_Petshop/
+- Link: https://dionseid.github.io/sitios_html_css/proyecto_Petshop/
 <hr/>
 
 ## Portfolio
@@ -47,11 +47,11 @@ Hay comentarios en el código para expresar algunas dudas
 - Bootstrap: navbar, buttons, modals;
 - hover effects
   <br>
-- Link: https://dionseid.github.io/Frontend_I/proyecto_Portfolio/
+- Link: https://dionseid.github.io/sitios_html_css/proyecto_Portfolio/
 <hr/>
 
 ## InstaFront
 
 🚩 práctica de CSS grid layout
 
-- Link: https://dionseid.github.io/Frontend_I/proyecto_InstaFront/
+- Link: https://dionseid.github.io/sitios_html_css/proyecto_InstaFront/
