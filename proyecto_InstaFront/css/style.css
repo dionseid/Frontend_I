@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:visited {
+  color: inherit;
+}
+
+body main {
+  font-family: 'Inter', sans-serif;
+}
+
+body main section {
+  margin: 1.25em;
+}
+
+body main aside {
+  display: none;
+}
+
+header {
+  border-bottom: 0.4px solid rgba(34, 34, 34, 0.5);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  padding: .6em;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+header form {
+  display: none;
+}
+
+header a {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+header a img {
+  border-radius: 50%;
+  padding-top: 8%;
+}
+
+main > section:first-child {
+  border: 0.4px solid rgba(34, 34, 34, 0.5);
+  border-radius: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  grid-gap: .75em;
+  padding: 1.2em 1.6em;
+}
+
+main > section:first-child a:nth-child(5) {
+  display: none;
+}
+
+main > section:first-child a:nth-child(6) {
+  display: none;
+}
+
+main > section:first-child a:nth-child(7) {
+  display: none;
+}
+
+main > section:first-child img {
+  border-radius: 50%;
+  height: 3.5em;
+  vertical-align: middle;
+}
+
+main > section:nth-child(2) {
+  border: 0.4px solid rgba(34, 34, 34, 0.5);
+  border-radius: 5px;
+  margin-bottom: 5em;
+}
+
+main > section:nth-child(2) > div:first-child {
+  border-bottom: 0.4px solid rgba(34, 34, 34, 0.5);
+  color: #262626;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3.5fr 1fr;
+      grid-template-columns: 1fr 3.5fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.5rem;
+  padding: .25em .35em;
+}
+
+main > section:nth-child(2) > div:first-child img {
+  border-radius: 50%;
+  padding-top: 8%;
+}
+
+main > section:nth-child(2) > div:first-child h4 {
+  font-size: .9rem;
+  font-weight: 500;
+}
+
+main > section:nth-child(2) > div:first-child p {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  letter-spacing: .2rem;
+  padding-bottom: 16%;
+}
+
+main > section:nth-child(2) > div:last-child {
+  padding: 1.1em;
+}
+
+main > section:nth-child(2) > div:last-child img {
+  width: 100%;
+}
+
+main > section:nth-child(2) > div:last-child div i {
+  font-size: 1.4rem;
+  padding: .2rem 1rem 0 0;
+}
+
+main > section:nth-child(2) > div:last-child div p {
+  font-size: 0.6rem;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(5) {
+  padding-top: .6rem;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(6) {
+  padding-top: .6rem;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(6) {
+  color: #A49B9B;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(7) {
+  padding-top: .6rem;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(7) {
+  font-weight: 500;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(7) a {
+  font-weight: bolder;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(8) {
+  padding-top: .6rem;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(8) {
+  font-weight: 500;
+}
+
+main > section:nth-child(2) > div:last-child div p:nth-child(8) a {
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #222222;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.6rem;
+  padding-top: .6rem;
+  padding-bottom: .6rem;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  body header {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+  body header h1 {
+    padding-left: 6rem;
+  }
+  body header form {
+    display: block;
+  }
+  body header form input {
+    background-color: #FAFAFA;
+    border: .3px solid #222222;
+    border-radius: 5px;
+    width: 100%;
+    height: 2.4rem;
+  }
+  body header form input:enabled {
+    padding: .9rem 1rem 1rem 1rem;
+  }
+  body header a:last-child {
+    padding-right: 2.5em;
+  }
+  body main {
+    background-color: #FAFAFA;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.3fr .7fr;
+        grid-template-columns: 1.3fr .7fr;
+    -ms-grid-rows: .35fr .8fr 1.3fr 6.6fr .4fr;
+        grid-template-rows: .35fr .8fr 1.3fr 6.6fr .4fr;
+    grid-gap: 0 6em;
+    padding: 0 6em;
+  }
+  body main section {
+    background-color: white;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  body main section:first-child {
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    grid-row-end: 3;
+    -ms-grid-columns: (1fr)[7];
+        grid-template-columns: repeat(7, 1fr);
+    margin-top: 0;
+  }
+  body main section:first-child a:nth-child(5) {
+    display: block;
+  }
+  body main section:first-child a:nth-child(6) {
+    display: block;
+  }
+  body main section:first-child a:nth-child(7) {
+    display: block;
+  }
+  body main section:nth-child(2) {
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    grid-row-end: 5;
+  }
+  body main section:nth-child(2) div:first-child {
+    -ms-grid-columns: 1fr 9fr 1fr;
+        grid-template-columns: 1fr 9fr 1fr;
+  }
+  body main section:nth-child(2) div:first-child img {
+    padding-top: 0;
+    vertical-align: middle;
+  }
+  body main section:nth-child(2) div:last-child p {
+    font-size: .75rem;
+  }
+  body main aside {
+    background-color: #FAFAFA;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  body main aside img {
+    border-radius: 50%;
+  }
+  body main aside h4 {
+    font-size: .75rem;
+    font-weight: 500;
+  }
+  body main aside > div:first-child {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.25fr 3.6fr 2fr;
+        grid-template-columns: 1.25fr 3.6fr 2fr;
+    grid-gap: .75rem;
+  }
+  body main aside > div:first-child a:first-child {
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+  body main aside > div:first-child a:first-child img {
+    height: 3em;
+  }
+  body main aside > div:first-child a:nth-child(2) {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    padding-bottom: 2.5%;
+  }
+  body main aside > div:first-child a:nth-child(2) p {
+    color: #808080;
+    font-size: .7rem;
+  }
+  body main aside > div:first-child a:last-child {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    justify-self: flex-start;
+    color: #1CA0F6;
+    font-size: .85rem;
+    font-weight: 500;
+    padding-bottom: 2.5%;
+  }
+  body main aside > div:last-child {
+    -ms-grid-row-align: start;
+        align-self: start;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: .6em 0;
+  }
+  body main aside > div:last-child h3 {
+    color: #808080;
+    font-size: .75rem;
+    font-weight: 700;
+  }
+  body main aside > div:last-child div {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.25fr 6fr 2.8fr;
+        grid-template-columns: 1.25fr 6fr 2.8fr;
+  }
+  body main aside > div:last-child div a {
+    -ms-grid-column-align: start;
+        justify-self: start;
+  }
+  body main aside > div:last-child div a img {
+    height: 2.5em;
+    vertical-align: middle;
+  }
+  body main aside > div:last-child div h4 {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  body main aside > div:last-child div p {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    justify-self: flex-start;
+    color: #1CA0F6;
+    font-size: .85rem;
+    padding-bottom: 2.5%;
+    text-decoration: underline;
+  }
+}
+/*# sourceMappingURL=style.css.map */

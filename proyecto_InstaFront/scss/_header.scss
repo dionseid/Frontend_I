@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "variables";
+header {
+    border-bottom: .4px solid rgba(34, 34, 34, 0.5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: .6em;
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    form {
+        display: none;
+    }
+    a {
+        justify-self: end;
+        img {
+            border-radius: 50%;
+            padding-top: $alignment_padding;
+        }
+    }
+}

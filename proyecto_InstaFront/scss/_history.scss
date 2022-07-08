@@ -1,0 +1,20 @@
+main > section:first-child {
+    border: .4px solid rgba(34, 34, 34, 0.5);
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    grid-gap: .75em;
+    padding: 1.2em 1.6em;
+    @for $i from 5 through 7 {
+        a:nth-child(#{$i}) {
+            display: none;
+        }
+    } 
+    img {
+            border-radius: 50%;
+            height: 3.5em;
+            vertical-align: middle;
+        }
+}
